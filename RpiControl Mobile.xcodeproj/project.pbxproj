@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8495700821D5161000F652CC /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8495700721D5161000F652CC /* Device.swift */; };
+		8495700A21D5164800F652CC /* SearchDevices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8495700921D5164800F652CC /* SearchDevices.swift */; };
+		8495700C21D516BD00F652CC /* ConnectionAgent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8495700B21D516BD00F652CC /* ConnectionAgent.swift */; };
+		8495700E21D516C600F652CC /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8495700D21D516C600F652CC /* Package.swift */; };
+		8495701021D5181D00F652CC /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8495700F21D5181D00F652CC /* Extentions.swift */; };
+		8495701221D5326400F652CC /* ControlPanelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8495701121D5326400F652CC /* ControlPanelViewController.swift */; };
+		8495701421D53E7A00F652CC /* DeviceSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8495701321D53E7A00F652CC /* DeviceSettingsViewController.swift */; };
+		8495701621D53ED300F652CC /* FileExplorerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8495701521D53ED300F652CC /* FileExplorerViewController.swift */; };
+		8495701821D53F3300F652CC /* ConnectivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8495701721D53F3300F652CC /* ConnectivityViewController.swift */; };
+		8495701A21D53F6E00F652CC /* TerminalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8495701921D53F6E00F652CC /* TerminalViewController.swift */; };
+		84996FFF21D5056400FA1D7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84996FFE21D5056400FA1D7B /* AppDelegate.swift */; };
+		8499700121D5056400FA1D7B /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8499700021D5056400FA1D7B /* DashboardViewController.swift */; };
+		8499700421D5056400FA1D7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8499700221D5056400FA1D7B /* Main.storyboard */; };
+		8499700621D5056900FA1D7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8499700521D5056900FA1D7B /* Assets.xcassets */; };
+		8499700921D5056900FA1D7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8499700721D5056900FA1D7B /* LaunchScreen.storyboard */; };
+		D29126D2DC6614844C8D772E /* Pods_RpiControl_Mobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8020194EBA705927F450FAFF /* Pods_RpiControl_Mobile.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8020194EBA705927F450FAFF /* Pods_RpiControl_Mobile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RpiControl_Mobile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8495700721D5161000F652CC /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		8495700921D5164800F652CC /* SearchDevices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchDevices.swift; sourceTree = "<group>"; };
+		8495700B21D516BD00F652CC /* ConnectionAgent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionAgent.swift; sourceTree = "<group>"; };
+		8495700D21D516C600F652CC /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		8495700F21D5181D00F652CC /* Extentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
+		8495701121D5326400F652CC /* ControlPanelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlPanelViewController.swift; sourceTree = "<group>"; };
+		8495701321D53E7A00F652CC /* DeviceSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceSettingsViewController.swift; sourceTree = "<group>"; };
+		8495701521D53ED300F652CC /* FileExplorerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileExplorerViewController.swift; sourceTree = "<group>"; };
+		8495701721D53F3300F652CC /* ConnectivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectivityViewController.swift; sourceTree = "<group>"; };
+		8495701921D53F6E00F652CC /* TerminalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminalViewController.swift; sourceTree = "<group>"; };
+		84996FFB21D5056400FA1D7B /* RpiControl Mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RpiControl Mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84996FFE21D5056400FA1D7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8499700021D5056400FA1D7B /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		8499700321D5056400FA1D7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8499700521D5056900FA1D7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8499700821D5056900FA1D7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8499700A21D5056900FA1D7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2E134EA23023C33DF72728D /* Pods-RpiControl Mobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RpiControl Mobile.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RpiControl Mobile/Pods-RpiControl Mobile.debug.xcconfig"; sourceTree = "<group>"; };
+		E12EC13CA06050FEDE043DC2 /* Pods-RpiControl Mobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RpiControl Mobile.release.xcconfig"; path = "Pods/Target Support Files/Pods-RpiControl Mobile/Pods-RpiControl Mobile.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84996FF821D5056400FA1D7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D29126D2DC6614844C8D772E /* Pods_RpiControl_Mobile.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65DD4B3839BA28666E6CE2A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8020194EBA705927F450FAFF /* Pods_RpiControl_Mobile.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84956FFF21D509B400F652CC /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				8499700721D5056900FA1D7B /* LaunchScreen.storyboard */,
+				8499700221D5056400FA1D7B /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		8495700221D5114000F652CC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8499700021D5056400FA1D7B /* DashboardViewController.swift */,
+				8495701121D5326400F652CC /* ControlPanelViewController.swift */,
+				8495701321D53E7A00F652CC /* DeviceSettingsViewController.swift */,
+				8495701521D53ED300F652CC /* FileExplorerViewController.swift */,
+				8495701721D53F3300F652CC /* ConnectivityViewController.swift */,
+				8495701921D53F6E00F652CC /* TerminalViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8495700321D515A800F652CC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8495700D21D516C600F652CC /* Package.swift */,
+				8495700721D5161000F652CC /* Device.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8495700421D515B000F652CC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8495700F21D5181D00F652CC /* Extentions.swift */,
+				8495700B21D516BD00F652CC /* ConnectionAgent.swift */,
+				8495700921D5164800F652CC /* SearchDevices.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		84996FF221D5056300FA1D7B = {
+			isa = PBXGroup;
+			children = (
+				84996FFD21D5056400FA1D7B /* RpiControl Mobile */,
+				84996FFC21D5056400FA1D7B /* Products */,
+				D1FB3BCD28F379C7E3712ED4 /* Pods */,
+				65DD4B3839BA28666E6CE2A2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84996FFC21D5056400FA1D7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84996FFB21D5056400FA1D7B /* RpiControl Mobile.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84996FFD21D5056400FA1D7B /* RpiControl Mobile */ = {
+			isa = PBXGroup;
+			children = (
+				8495700421D515B000F652CC /* Utils */,
+				8495700321D515A800F652CC /* Models */,
+				8495700221D5114000F652CC /* ViewControllers */,
+				84956FFF21D509B400F652CC /* Storyboards */,
+				84996FFE21D5056400FA1D7B /* AppDelegate.swift */,
+				8499700521D5056900FA1D7B /* Assets.xcassets */,
+				8499700A21D5056900FA1D7B /* Info.plist */,
+			);
+			path = "RpiControl Mobile";
+			sourceTree = "<group>";
+		};
+		D1FB3BCD28F379C7E3712ED4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B2E134EA23023C33DF72728D /* Pods-RpiControl Mobile.debug.xcconfig */,
+				E12EC13CA06050FEDE043DC2 /* Pods-RpiControl Mobile.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84996FFA21D5056400FA1D7B /* RpiControl Mobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8499700D21D5056900FA1D7B /* Build configuration list for PBXNativeTarget "RpiControl Mobile" */;
+			buildPhases = (
+				6E9B7606451A50D7D7D9D737 /* [CP] Check Pods Manifest.lock */,
+				84996FF721D5056400FA1D7B /* Sources */,
+				84996FF821D5056400FA1D7B /* Frameworks */,
+				84996FF921D5056400FA1D7B /* Resources */,
+				093534CD071FD2EAAE161238 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RpiControl Mobile";
+			productName = "RpiControl Mobile";
+			productReference = 84996FFB21D5056400FA1D7B /* RpiControl Mobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84996FF321D5056300FA1D7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Oleg Mikhnovich";
+				TargetAttributes = {
+					84996FFA21D5056400FA1D7B = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 84996FF621D5056300FA1D7B /* Build configuration list for PBXProject "RpiControl Mobile" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84996FF221D5056300FA1D7B;
+			productRefGroup = 84996FFC21D5056400FA1D7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84996FFA21D5056400FA1D7B /* RpiControl Mobile */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84996FF921D5056400FA1D7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8499700921D5056900FA1D7B /* LaunchScreen.storyboard in Resources */,
+				8499700621D5056900FA1D7B /* Assets.xcassets in Resources */,
+				8499700421D5056400FA1D7B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		093534CD071FD2EAAE161238 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RpiControl Mobile/Pods-RpiControl Mobile-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftSocket/SwiftSocket.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSocket.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RpiControl Mobile/Pods-RpiControl Mobile-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E9B7606451A50D7D7D9D737 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RpiControl Mobile-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84996FF721D5056400FA1D7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8495700E21D516C600F652CC /* Package.swift in Sources */,
+				8495700821D5161000F652CC /* Device.swift in Sources */,
+				8495701621D53ED300F652CC /* FileExplorerViewController.swift in Sources */,
+				8495701821D53F3300F652CC /* ConnectivityViewController.swift in Sources */,
+				8499700121D5056400FA1D7B /* DashboardViewController.swift in Sources */,
+				84996FFF21D5056400FA1D7B /* AppDelegate.swift in Sources */,
+				8495701A21D53F6E00F652CC /* TerminalViewController.swift in Sources */,
+				8495700C21D516BD00F652CC /* ConnectionAgent.swift in Sources */,
+				8495700A21D5164800F652CC /* SearchDevices.swift in Sources */,
+				8495701221D5326400F652CC /* ControlPanelViewController.swift in Sources */,
+				8495701421D53E7A00F652CC /* DeviceSettingsViewController.swift in Sources */,
+				8495701021D5181D00F652CC /* Extentions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8499700221D5056400FA1D7B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8499700321D5056400FA1D7B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8499700721D5056900FA1D7B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8499700821D5056900FA1D7B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8499700B21D5056900FA1D7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8499700C21D5056900FA1D7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8499700E21D5056900FA1D7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2E134EA23023C33DF72728D /* Pods-RpiControl Mobile.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5Z77QS26A3;
+				INFOPLIST_FILE = "RpiControl Mobile/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Oleg-Mikhnovich.RpiControl-Mobile";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "RpiControlMobile-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8499700F21D5056900FA1D7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E12EC13CA06050FEDE043DC2 /* Pods-RpiControl Mobile.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5Z77QS26A3;
+				INFOPLIST_FILE = "RpiControl Mobile/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Oleg-Mikhnovich.RpiControl-Mobile";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "RpiControlMobile-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84996FF621D5056300FA1D7B /* Build configuration list for PBXProject "RpiControl Mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8499700B21D5056900FA1D7B /* Debug */,
+				8499700C21D5056900FA1D7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8499700D21D5056900FA1D7B /* Build configuration list for PBXNativeTarget "RpiControl Mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8499700E21D5056900FA1D7B /* Debug */,
+				8499700F21D5056900FA1D7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84996FF321D5056300FA1D7B /* Project object */;
+}
