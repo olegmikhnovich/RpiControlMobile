@@ -11,9 +11,6 @@ import UIKit
 class ControlPanelViewController: UITabBarController {
     private var device: Device?
     
-    override func viewDidLoad() {
-    }
-    
     func setDevice(device: Device) {
         self.device = device
     }
@@ -21,5 +18,4 @@ class ControlPanelViewController: UITabBarController {
     func getDevice() -> Device? {
         return self.device
     }
-    
 }

@@ -27,16 +27,16 @@ class DashboardViewController: UIViewController, UITableViewDelegate {
     }
 
     @IBAction func scanBtn(_ sender: Any) {
-        scanProgress.isHidden = false
+        scanProgress.startAnimating()
         scanButton.isHidden = true
-        let backgroundQueue = DispatchQueue.global(qos: .background)
-        backgroundQueue.async {
+        let queue = DispatchQueue.global(qos: .utility)
+        queue.async {
             let search = SearchDevices()
             self.devicesList = search.getDevices()
             DispatchQueue.main.async {
-                self.devicesTableView.reloadData()
-                self.scanProgress.isHidden = true
                 self.scanButton.isHidden = false
+                self.devicesTableView.reloadData()
+                self.scanProgress.stopAnimating()
             }
         }
     }
