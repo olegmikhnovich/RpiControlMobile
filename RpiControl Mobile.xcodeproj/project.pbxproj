@@ -22,6 +22,7 @@
 		8499700421D5056400FA1D7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8499700221D5056400FA1D7B /* Main.storyboard */; };
 		8499700621D5056900FA1D7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8499700521D5056900FA1D7B /* Assets.xcassets */; };
 		8499700921D5056900FA1D7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8499700721D5056900FA1D7B /* LaunchScreen.storyboard */; };
+		84BE948F21D7668F00AF04DE /* UserFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BE948E21D7668F00AF04DE /* UserFile.swift */; };
 		D29126D2DC6614844C8D772E /* Pods_RpiControl_Mobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8020194EBA705927F450FAFF /* Pods_RpiControl_Mobile.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +45,7 @@
 		8499700521D5056900FA1D7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8499700821D5056900FA1D7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8499700A21D5056900FA1D7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84BE948E21D7668F00AF04DE /* UserFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserFile.swift; sourceTree = "<group>"; };
 		B2E134EA23023C33DF72728D /* Pods-RpiControl Mobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RpiControl Mobile.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RpiControl Mobile/Pods-RpiControl Mobile.debug.xcconfig"; sourceTree = "<group>"; };
 		E12EC13CA06050FEDE043DC2 /* Pods-RpiControl Mobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RpiControl Mobile.release.xcconfig"; path = "Pods/Target Support Files/Pods-RpiControl Mobile/Pods-RpiControl Mobile.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -93,6 +95,7 @@
 		8495700321D515A800F652CC /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				84BE948E21D7668F00AF04DE /* UserFile.swift */,
 				8495700D21D516C600F652CC /* Package.swift */,
 				8495700721D5161000F652CC /* Device.swift */,
 			);
@@ -279,6 +282,7 @@
 				8495701A21D53F6E00F652CC /* TerminalViewController.swift in Sources */,
 				8495700C21D516BD00F652CC /* ConnectionAgent.swift in Sources */,
 				8495700A21D5164800F652CC /* SearchDevices.swift in Sources */,
+				84BE948F21D7668F00AF04DE /* UserFile.swift in Sources */,
 				8495701221D5326400F652CC /* ControlPanelViewController.swift in Sources */,
 				8495701421D53E7A00F652CC /* DeviceSettingsViewController.swift in Sources */,
 				8495701021D5181D00F652CC /* Extentions.swift in Sources */,

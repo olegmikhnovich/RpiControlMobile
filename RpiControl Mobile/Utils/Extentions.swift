@@ -66,3 +66,21 @@ extension DashboardViewController: UITableViewDataSource {
     }
 }
 
+extension FileExplorerViewController: UITableViewDataSource {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return self.filesList.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cellFileIdentifier")!
+        let file = filesList[indexPath.row]
+        cell.textLabel?.text = file.getName()
+        if file.getType() == file.dirType {
+            cell.imageView?.image = UIImage(named: "FolderIcon")
+        } else {
+            cell.imageView?.image = UIImage(named: "FileIcon")
+        }
+        return cell
+    }
+}
+
