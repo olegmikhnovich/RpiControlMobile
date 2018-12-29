@@ -1,6 +1,8 @@
 # RpiControl Mobile
 [![Platform](https://img.shields.io/badge/platform-iOS-blue.svg)](https://www.apple.com/ru/ios/ios-12)
 
+**[Project website](https://olegmikhnovich.github.io/rpicontrolproject)**
+
 RpiControl Mobile is an application for Apple iOS ( iPhone / iPad ) and etc.
 You can control your Raspberry Pi devices using this app.
 
@@ -13,7 +15,7 @@ This project contains 3 modules
 | [RpiControl Mobile](https://github.com/olegmikhnovich/RpiControlMobile)      | Client application for iOS |
 
 ## Requirements
-* iOS 11 or newer
+* iOS 12 or newer
 * XCode 10.1
 
 ## Old versions

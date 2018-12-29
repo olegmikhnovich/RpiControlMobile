@@ -98,14 +98,69 @@
                     <view key="view" contentMode="scaleToFill" id="lFR-bW-Uar">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Direct connections" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zMg-8y-YfY">
+                                <rect key="frame" x="16" y="20" width="288" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sd2-He-fyW">
+                                <rect key="frame" x="16" y="49" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oYk-x6-moW">
+                                <rect key="frame" x="16" y="57" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KU1-Su-C09">
+                                <rect key="frame" x="16" y="65" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kUJ-mv-dPs">
+                                <rect key="frame" x="16" y="73" width="288" height="30"/>
+                                <state key="normal" title="Fresh"/>
+                                <connections>
+                                    <action selector="freshDirectConnBtn:" destination="Dpg-Kp-xKl" eventType="touchUpInside" id="lcK-Qa-7Ih"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="zMg-8y-YfY" firstAttribute="top" secondItem="8tW-3H-ljR" secondAttribute="top" id="1vf-kx-ZNN"/>
+                            <constraint firstItem="zMg-8y-YfY" firstAttribute="leading" secondItem="lFR-bW-Uar" secondAttribute="leadingMargin" id="2XR-yk-hCf"/>
+                            <constraint firstItem="KU1-Su-C09" firstAttribute="top" secondItem="oYk-x6-moW" secondAttribute="bottom" constant="8" symbolic="YES" id="3CX-Te-5ez"/>
+                            <constraint firstItem="Sd2-He-fyW" firstAttribute="leading" secondItem="oYk-x6-moW" secondAttribute="leading" id="6yi-e9-ufn"/>
+                            <constraint firstItem="8tW-3H-ljR" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="KU1-Su-C09" secondAttribute="trailing" symbolic="YES" id="BxR-ez-Hds"/>
+                            <constraint firstItem="kUJ-mv-dPs" firstAttribute="leading" secondItem="KU1-Su-C09" secondAttribute="leading" id="Diw-n3-OCR"/>
+                            <constraint firstItem="kUJ-mv-dPs" firstAttribute="trailing" secondItem="zMg-8y-YfY" secondAttribute="trailing" id="RjL-8X-v5k"/>
+                            <constraint firstItem="kUJ-mv-dPs" firstAttribute="top" secondItem="KU1-Su-C09" secondAttribute="bottom" constant="8" symbolic="YES" id="VvD-Az-LWt"/>
+                            <constraint firstItem="oYk-x6-moW" firstAttribute="leading" secondItem="KU1-Su-C09" secondAttribute="leading" id="YyC-ha-Es8"/>
+                            <constraint firstItem="8tW-3H-ljR" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="oYk-x6-moW" secondAttribute="trailing" symbolic="YES" id="eN7-oD-wLw"/>
+                            <constraint firstItem="zMg-8y-YfY" firstAttribute="leading" secondItem="Sd2-He-fyW" secondAttribute="leading" id="gX6-s7-xOm"/>
+                            <constraint firstItem="zMg-8y-YfY" firstAttribute="trailing" secondItem="lFR-bW-Uar" secondAttribute="trailingMargin" id="skX-q8-PJE"/>
+                            <constraint firstItem="8tW-3H-ljR" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Sd2-He-fyW" secondAttribute="trailing" symbolic="YES" id="xDg-Ij-Dwb"/>
+                            <constraint firstItem="Sd2-He-fyW" firstAttribute="top" secondItem="zMg-8y-YfY" secondAttribute="bottom" constant="8" symbolic="YES" id="yAf-W0-eqY"/>
+                            <constraint firstItem="oYk-x6-moW" firstAttribute="top" secondItem="Sd2-He-fyW" secondAttribute="bottom" constant="8" symbolic="YES" id="yZh-eD-eLw"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="8tW-3H-ljR"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Connectivity" image="cellular_network" id="8sa-xS-VWj"/>
+                    <connections>
+                        <outlet property="directIPLabel" destination="oYk-x6-moW" id="OSX-X9-dgC"/>
+                        <outlet property="directMacLabel" destination="KU1-Su-C09" id="Noa-Pp-0nB"/>
+                        <outlet property="directNameLabel" destination="Sd2-He-fyW" id="Tzx-WN-eQh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YO0-Va-67y" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2446" y="439"/>
+            <point key="canvasLocation" x="2445" y="438.38028169014086"/>
         </scene>
         <!--File Explorer-->
         <scene sceneID="PJZ-Ow-KJm">
