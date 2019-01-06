@@ -12,13 +12,14 @@ class SearchDevices {
     
     public func getDevices() -> [Device] {
         var devices = [Device]()
-        let backgroundQueue = DispatchQueue.global(qos: .background)
         let addresses = getIFAddresses()
-        backgroundQueue.sync {
+        let queue = OperationQueue()
+        queue.addOperation {
             for range in addresses {
                 devices.append(contentsOf: self.requestHost(range: range))
             }
         }
+        queue.waitUntilAllOperationsAreFinished()
         return devices
     }
     
